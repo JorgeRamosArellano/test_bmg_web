@@ -1,3 +1,6 @@
+
+export 'package:test_bmg_web/widgets/job_card.dart';
+export 'package:test_bmg_web/widgets/category_card.dart';
 export 'package:test_bmg_web/widgets/main_panel.dart';
 export 'package:test_bmg_web/widgets/percent_widget.dart';
 export 'package:test_bmg_web/widgets/panel_user.dart';

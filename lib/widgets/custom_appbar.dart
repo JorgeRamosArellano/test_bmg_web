@@ -23,10 +23,13 @@ class CustomAppbar extends StatelessWidget with PreferredSizeWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               SizedBox(width: size.width * 0.01),
+              if(size.width > 400)
               Image.asset('images/logo.JPG'),
+              if(size.width > 590)
               const VerticalDivider(
                 indent: 10, endIndent: 10,
               ),
+              if(size.width > 590)
               Row(
                 children: [
                   Text(
@@ -47,6 +50,7 @@ class CustomAppbar extends StatelessWidget with PreferredSizeWidget {
                   ),
                 ],
               ),
+              if(size.width > 590)
               const Spacer(),
               Container(
                 width: size.width * 0.02,

@@ -16,10 +16,14 @@ class HomeScreen extends StatelessWidget {
           children: [
             SizedBox(height: size.width * 0.01),
             Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SizedBox(width: size.width * 0.01),
                 const Card(elevation: 5,child: PanelUser()),
-                MainPanel(),
+                const Expanded(
+                  child:  MainPanel(),
+                    
+                ),
               ],
             ),
           ],
